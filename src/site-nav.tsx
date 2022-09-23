@@ -5,7 +5,7 @@ export const SiteNav: React.FC = () => {
   const meta = {
     brand: "Blockroma",
     ctaButtonText: "Launch App",
-    ctaButtonLink: "https://app.blockroma.com/",
+    ctaButtonLink: "https://blockroma.com/ethw/mainnet/",
   };
   return (
     <div className="navbar-container ">
