@@ -1,0 +1,7 @@
+body:not(.loaded) {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
