@@ -83,9 +83,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{opts.title}</title>
+        <title>{opts.title} - {opts.heroTitle}</title>
       </Head>
-
 
       <SiteNav/>
 
