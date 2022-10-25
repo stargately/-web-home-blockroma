@@ -79,11 +79,12 @@ const Home: NextPage = () => {
       ["Or you need a managed solution?", "contact us", "https://t.me/mikethrift"],
     ],
   };
+  const siteTitle = `${opts.title} - ${opts.heroTitle}`;
 
   return (
     <>
       <Head>
-        <title>{opts.title} - {opts.heroTitle}</title>
+        <title>{siteTitle}</title>
       </Head>
 
       <SiteNav/>
