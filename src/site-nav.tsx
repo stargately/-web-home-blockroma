@@ -15,7 +15,7 @@ export const SiteNav: React.FC = () => {
       >
         <div className="container">
           <div className="col flex-fill px-0 d-flex justify-content-between">
-            <div className="navbar-brand mr-0 fade-page">
+            <div className="navbar-brand mr-0">
               <Link  href="/">
                 {meta.brand}
               </Link>
